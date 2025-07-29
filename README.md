@@ -1,3 +1,7 @@
+YokaiHunter adalah tool kombinasi `Gospider`, `Katana`, dan `Dalfox` untuk melakukan crawling URL + parameter discovery + XSS auto scan. Dibuat dengan 💖 oleh bug hunter 👨‍💻 Gen-Z.
+
+---
+
 ✨ Fitur
 - 🔍 Crawling cepat pakai Gospider dan Katana
 - 📎 Filter otomatis URL yang mengandung parameter (`?`)
@@ -6,11 +10,11 @@
 - 🟩 Output warna-warni (biar nggak bosen)
 - 📁 Simpan output ke file `.txt`
 
+---
 
+🚀 Cara Pakai
 
- 🚀 Cara Pakai
-
-1. Clone atau upload file
+ 1. Clone atau upload file
 ```bash
 git clone https://github.com/nathancyber30/yokaihunter.git
 cd yokaihunter
