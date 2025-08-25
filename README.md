@@ -18,8 +18,17 @@ YokaiHunter adalah tool kombinasi `Gospider`, `Katana`, dan `Dalfox` untuk melak
 ```bash
 git clone https://github.com/nathancyber30/yokaihunter.git
 cd yokaihunter
+ls
+# Pastikan jalanin ini, dan kalo error mungkin perlu: chmod +x install.sh && sudo ./install.sh
+chmod +x install.sh
 bash install.sh
-./yokaihunter -u https://target.com -tool all
+
+atau kalo butuh sudo
+sudo bash install.sh 
+
+# lalu jalankan hunting-nya:
+./yokaihunter -u http://testphp.vulnweb.com -tool all
+
 
 ⚠️ Requirements
 
